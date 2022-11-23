@@ -1,0 +1,142 @@
+.aboutMe-container {
+  color: white;
+  width: 100%;
+  padding: 0 40px;
+  position: relative;
+  padding: 100px 40px 20px 40px;
+  background: var(--color-background);
+}
+
+.abouMe-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse !important;
+}
+
+.about-img-details {
+  width: 80%;
+  margin-right: 0 !important;
+  border-radius:50%;
+  overflow:hidden;
+  border: 10px solid white;
+  transition: transform .35s ease;
+}
+.about-img-details:hover {
+  width: 80%;
+  margin-right: 0 !important;
+  border-radius:50%;
+  overflow:hidden;
+  border: 10px solid white;
+  transform:scale(1.05);
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.lang i {
+  font-size: 2.3rem;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  background: rgba(46, 33, 92, 0.5);
+}
+.lang-info {
+  display: flex;
+  margin-right: 15px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.lang-info p {
+  font-size: 13px;
+}
+
+.abouMe-row .title h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.abouMe-row h3 {
+  font-size: 2rem;
+  line-height: 40px;
+  text-transform: uppercase;
+  width: 490px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pt-2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.about-description {
+  line-height: 1.9em;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.about-description a:hover {
+  color: #17355a;
+}
+
+
+.about-rect {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: rotate(45deg);
+}
+.about-rect img {
+  opacity: 0.2;
+  width: 80px;
+  z-index: 2;
+}
+
+.about-shady {
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
+  z-index: 20;
+}
+.about-shady img {
+  opacity: 0.8;
+  width: 200px;
+  z-index: 2;
+}
+.download-cv {
+  margin-top: 20px;
+  height: 60px;
+  width: 180px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid var(--color-button);
+  background: var(--color-card-background);
+  font-family:'Courier New', Courier, monospace;
+}
+
+.download-cv:hover {
+  background: var(--color-darkest);
+}
+
+.title {
+  font-family:'Courier New', Courier, monospace;
+  font-size:45px;
+}

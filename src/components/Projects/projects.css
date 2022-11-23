@@ -1,0 +1,131 @@
+.mywork {
+  color: var(--color-info-light);
+  width: 100%;
+  padding: 0 0 0 60px;
+  margin-top: 30px !important;
+  overflow: hidden;
+}
+.mywork-title {
+  margin-bottom: 20px;
+  font-family:'Courier New', Courier, monospace;
+  font-size:45px;
+}
+.mywork-title h3 {
+  font-size: 2.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  width: 490px;
+  margin-bottom: 40px;
+}
+.project {
+  overflow: hidden !important;
+  background: var(--color-card-background);
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 20px;
+  width: 700px;
+}
+.project-vid {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.project-row {
+  align-items: center;
+  flex-wrap: wrap;
+}
+.work-vid {
+  border-radius: 25px;
+  padding: 20px;
+  min-height: 425px;
+  min-width: 440px;
+}
+
+.project:not(:first-child){
+  margin-top: 20%;
+}
+
+.work-details {
+  padding: 0px 75px 10px 75px;
+  position: relative;
+}
+.project-header {
+  color: var(--color-white) !important;
+  max-height: 100px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  font-family:'Courier New', Courier, monospace;
+  position: relative;
+  margin-bottom:10px;
+}
+.project-title {
+  display: flex;
+  font-size:35px;
+}
+
+.project-lang {
+  font-size: 20px;
+  align-self:center;
+  text-align: right;
+}
+
+.work-details p {
+  font-size: 17px;
+  font-weight: 300 !important;
+  line-height: 1.7rem;
+  white-space: normal;
+}
+.admin {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+.work-info {
+  line-height: normal;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.project .learnmore {
+  background: #17355a;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top:2px;
+  width: 30px;
+  height: 30px;
+}
+
+.learnmore:hover {
+  background: var(--color-middle);
+  color: white;
+}
+
+
+.project-column {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-col {
+  margin-left: 100px;
+}
+
+.right-col {
+  margin-right: 100px;
+}
+
+.github-link {
+  align-self:center;
+  margin-left: 10px;
+}
+
+.project-title-whole {
+  align-self: center;
+}
