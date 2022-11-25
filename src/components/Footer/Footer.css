@@ -2,6 +2,7 @@
   padding: 0 50px;
   background: var(--color-card-background);
   font-family:'Courier New', Courier, monospace;
+  bottom: 0;
 }
 .footer-info {
   display: flex;
@@ -17,4 +18,10 @@
   padding: 15px 0 0 0;
   align-items: center;
   justify-content: center;
+
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
 }

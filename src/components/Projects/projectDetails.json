@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "index": 4,
+        "video": "https://www.youtube.com/embed/oaTx7UJuyuA?autoplay=1&mute=1&loop=1&playlist=oaTx7UJuyuA",
+        "languages": "Python, JavaScript, HTML/CSS, Rust",
+        "title": "Desearch",
+        "description": "A decentralized search engine that stores user information on the NEAR blockchain. It works like any other search engine with a search field to input keywords that will subsequently generate impartial results that match those keywords. Desearch also includes child-friendly functionality by prioritizing more positive and educational topics, while straying away from more addictive and harmful platforms. Desearch received Best Consideration of Security and/or Privacy Award at HackTX 2022.",
+        "github": "https://github.com/johnfriess/Desearch"
+    },
+    {
+        "id": 2,
+        "index": 3,
+        "video": "https://www.youtube.com/embed/ilgxkATzcN4?autoplay=1&mute=1&loop=1&playlist=ilgxkATzcN4",
+        "languages": "Java",
+        "title": "Tetris",
+        "description": "A recreation of the classic Tetris game that also includes TetrisBrain, a genetic algorithm-based AI designed to survive as many falling tetrominoes for as long as possible. The brain can survive for up to a hundred thousand tetrominoes and consistently perform well given different board environments.",
+        "github": "https://github.com/johnfriess/Tetris"
+    },
+    {
+        "id": 3,
+        "index": 1,
+        "video": "https://www.youtube.com/embed/9PiVxaKdqF8?autoplay=1&mute=1&loop=1&playlist=9PiVxaKdqF8",
+        "languages": "Java",
+        "title": "Boggle",
+        "description": "An automated version of the Boggle game. It features a text-based UI and allows for various board sizes and number of players. After all players have indicated that they are finished with their turns, it will display all the possible words that can be found on the current board environment. The program also efficiently stores data for quick lookup times and fast querying.",
+        "github": "https://github.com/johnfriess/Boggle"
+    },
+    {
+        "id": 4,
+        "index": 0,
+        "video": "https://www.youtube.com/embed/tBhvGnmJRnc?autoplay=1&mute=1&loop=1&playlist=tBhvGnmJRnc",
+        "languages": "Java",
+        "title": "Blackjack Simulator",
+        "description": "A simulator for the casino game Blackjack capable of performing millions of different individual games. It contains details about the player and the dealer and step by step decisions about whether to hit or stand. The program also features an optimal game strategy algorithm that can consistently sustain above a 46% win rate.",
+        "github": "https://github.com/johnfriess/Blackjack-Simulator"
+    }
+]

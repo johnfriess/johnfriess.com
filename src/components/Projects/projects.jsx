@@ -1,14 +1,13 @@
-import { useGetProjectsQuery } from "../../Api/api";
+import projects from "./projectDetails.json";
 import { useEffect, useState } from "react";
 import "./projects.css";
 import React from "react";
 
 const Projects = () => {
-  const { data: projects } = useGetProjectsQuery();
-
   const [col1, setColumn1] = useState([]);
   const [col2, setColumn2] = useState([]);
-  const [projectsDetails, setProjectsDetails] = useState(projects);
+  const [projectsDetails, setProjectsDetails] = useState([]);
+
   useEffect(() => {
     setProjectsDetails(projects);
     let c1 = [];
@@ -23,16 +22,17 @@ const Projects = () => {
     });
     setColumn1(c1);
     setColumn2(c2);
-  }, [projectsDetails, projects]);
+  }, [projectsDetails]);
 
   const renderDetails = (details) => {
     return (
       <div className="project" data-aos="fade-up">
         <div className="project-vid">
-          <iframe
+        <iframe
             src={details.video}
             alt=""
             className="work-vid"
+            title={details.title}
           />
         </div>
 
@@ -49,7 +49,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                 >
                   <div className="learnmore">
-                    <i class="fa fa-github"></i>
+                    <i className="fa fa-github"></i>
                   </div>
                 </a>
               </div>

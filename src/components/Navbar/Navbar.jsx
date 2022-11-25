@@ -5,10 +5,7 @@ const Navbar = () => {
   const handleClick = (e) => {
     e.preventDefault()
     const target = e.currentTarget.getAttribute('href');
-    console.log(target)
-    console.log(document.querySelector(target))
     const location = document.querySelector(target).offsetTop
-    console.log(location)
 
     window.scrollTo({
       left:0,
