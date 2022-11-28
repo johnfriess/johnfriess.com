@@ -1,6 +1,6 @@
 {
-  "homepage": "https://johnfriess.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "https://johnfriess.github.io/johnfriess.com",
+  "name": "johnfriess.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
