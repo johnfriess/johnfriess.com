@@ -1,7 +1,7 @@
 import "./AboutMe.css";
-import resume from "../../pdf/resume.pdf";
 
 const AboutMe = () => {
+  console.log(process.env.PUBLIC_URL);
   return (
     <>
       <main id="about">
@@ -22,7 +22,7 @@ const AboutMe = () => {
 
               <div className="itscv">
                 <a
-                  href={resume}
+                  href={process.env.PUBLIC_URL + "/resume.pdf"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
