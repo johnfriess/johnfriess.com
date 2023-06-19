@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-import resume from "../../pdf/resume.pdf";
+import headshot from "../../images/headshot.jpeg";
 
 const AboutMe = () => {
   return (
@@ -22,7 +22,7 @@ const AboutMe = () => {
 
               <div className="itscv">
                 <a
-                  href={resume}
+                  href={process.env.PUBLIC_URL + "/resume.pdf"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -41,7 +41,7 @@ const AboutMe = () => {
                 href="https://www.linkedin.com/in/johnrfriess/"
                 target="_blank"
                 rel="noopener noreferrer">
-                  <img src="https://media-exp1.licdn.com/dms/image/D5603AQH36QgcxQNkjg/profile-displayphoto-shrink_800_800/0/1669100433768?e=1674691200&v=beta&t=Cu70BGU049LC-r7HbyQOQUvhObVJVKvDT-WmcMZhzHQ" alt=""/>
+                  <img src={headshot} alt=""/>
                 </a>
               </div>
 
